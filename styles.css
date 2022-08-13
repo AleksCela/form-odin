@@ -1,0 +1,105 @@
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+    margin: 0%;
+}
+.content{
+    display: flex;
+}
+.picture{
+    background-image: url(filip-mroz-023T4jyCRqA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
+}
+.logo{
+    display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+.logodin{
+    height: 100px;
+}
+.form123{
+    width: 60vw;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 34px;
+}
+.dummy{
+    line-height: 1.6;
+}
+
+.formReal{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.left-form{
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0 10px 20px -2px rgb(82, 0, 61);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+}
+button{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #78008B;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.login{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 4px;
+    margin-left: 10px;
+}
