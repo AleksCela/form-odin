@@ -103,3 +103,10 @@ button{
     gap: 4px;
     margin-left: 10px;
 }
+input:focus{
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 3px #78008B;
+    outline: none;
+    transition: .3s;
+}
